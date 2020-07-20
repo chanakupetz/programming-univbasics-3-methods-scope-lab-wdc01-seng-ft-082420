@@ -14,6 +14,6 @@ def link
 end
 
 def all_phrases
-  all_phrases = "#{phrase} #{status} #{phrase1}"
+  all_phrases = " #{status} #{phrase} #{phrase1}"
   puts all_phrases
 end
