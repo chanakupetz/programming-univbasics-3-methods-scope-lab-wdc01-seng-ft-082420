@@ -14,7 +14,6 @@ def link
 end
 
 def all_phrases
-  puts phrase
-  puts status
-  puts phrase1
+  all_phrases = "#{phrase} #{status} #{phrase1}"
+  puts all_phrases
 end
